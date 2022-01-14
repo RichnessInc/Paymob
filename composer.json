@@ -1,0 +1,28 @@
+{
+    "name": "richnessinc/paymob",
+    "description": "Usage Paymob Getaway",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Omar Kahled",
+        "email": "omarkhaledjob2001@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Richness\\Paymob\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Richness\\Paymob\\ServiceProvider"
+            ],
+
+            "aliases": {
+                "RichnessPaymob": "Richness\\Paymob\\RichnessPaymob"
+            }
+        }
+    }
+}
