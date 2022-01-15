@@ -17,7 +17,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Richness\\Paymob\\ServiceProvider"
+                "Richness\\Paymob\\RichnessPaymobServiceProvider"
             ],
 
             "aliases": {
